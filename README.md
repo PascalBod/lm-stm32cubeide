@@ -143,15 +143,6 @@ Push on the blue button. The green LED should light up when you release the butt
 <a name="update"></a>
 # Update
 
-As STM32CubeIDE is installed with sudo, it can be updated only when started with sudo:
-* start STM32CubeIDE:
+STM32CubeIDE is installed with sudo. This means that the file owner is `root`. Consequently, updating STM32CubeIDE using Eclipse update mechanism (**Help > Check for Updates**) fails, when you run STM32CubeIDE from a normal user.
 
-```shell
-$ sudo /opt/st/stm32cubeide_<currentVersion>/stm32cubeide
-```
-
-* select **Help > Check for Updates**
-* if an STM32CubeIDE update is available, it is displayed in the *Available Updates* window, and ticked by default
-* click on the **Next >** button, accept the license and install the update
-* accept the installation of the unsigned software when asked for
-* edit the menu entry, to set the new version number
+One way to use this update mechanism would be to start STM32CubeIDE from `root`. But trying this, I got in trouble: STM32CubeIDE refused to start after an update from 1.7.0 to 1.8.0. Consequently, now, instead of updating, I install the new version from scratch. An additional benefit: the previous version can be kept.
