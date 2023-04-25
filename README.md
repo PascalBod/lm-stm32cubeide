@@ -9,7 +9,7 @@ This short tutorial describes a way to make a virtual machine configured for STM
 # Prerequisites
 
 * Hardware: a 64-bit computer with enough memory so that the VM can be granted 16 GB, with a few tens of GB available on the disk, and one free USB A port
-* Hardware (bis): a [Nucleo-L476RG board](https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-nucleo-boards/nucleo-l476rg.html) with an USB A / micro USB B cable - any similar NUCLEO board can be used
+* Hardware (bis): a [Nucleo-L476RG board](https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-nucleo-boards/nucleo-l476rg.html) with an USB A / mini USB B cable - any similar NUCLEO board can be used
 * Developer: 
   * basic knowledge of Linux (knowing the most common commands...)
   * basic knowledge of VirtualBox (knowing how to create a virtual machine...)
