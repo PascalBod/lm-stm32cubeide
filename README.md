@@ -24,13 +24,13 @@ Be sure to provide the guest machine with enough resources. STM32CubeIDE is quit
 
 ## STM32CubeIDE installation
 
-According to the [Installation Guide](https://my.st.com/resource/en/user_manual/dm00603964-stm32cubeide-installation-guide-stmicroelectronics.pdf):
-* [Download STM32CubeIDE Debian Linux Installer](https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/stm32cubeide.html), version 1.9.0 at the time of writing. You will have to create an account
+According to the [Installation Guide](https://www.st.com/resource/en/user_manual/um2563-stm32cubeide-installation-guide-stmicroelectronics.pdf):
+* [Download STM32CubeIDE Debian Linux Installer](hhttps://www.st.com/en/development-tools/stm32cubeide.html#get-software), version 1.12.0 at the time of writing. You will have to create an account
 * Unzip the file
 * Run resulting script:
 
 ```shell
-$ sudo sh ./st-stm32cubeide_1.9.0_12015_20220302_0855_amd64.deb_bundle.sh
+$ sudo sh ./st-stm32cubeide_1.12.0_14980_20230301_1550_amd64.deb_bundle.sh
 ```
 
 * Accept the license, install Segger J-Link udev rules, accept additional licenses
